@@ -2,7 +2,7 @@
 
 This is my personal portfolio! Come check it out.
 
-![Website Portfolio](./src/assets/website-screenshot.png)
+![Website Portfolio](./assets/website-screenshot.png)
 
 Here is the [Live Demo](http://paulinalasko.github.io/paulinalasko-portfolio1)
 
