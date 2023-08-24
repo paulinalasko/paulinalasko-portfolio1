@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Personal Portfolio</title>
+</head>
+
+<body id="home">
+    <header class="sticky header-bgd header">
+        <div><img class="logo fadein" src="./assets/logo.svg" alt="logo saying Paulina Laskowska" class="logo" />
+        </div>
+        <nav class="nav-bar push-right">
+            <a href="#home" class="navlink fadein-slow">Home</a>
+            <a href="#about" class="navlink fadein-slower">About</a>
+            <a href="#projects" class="navlink fadein-slower-2">Projects</a>
+            <a href="#contact" class="navlink fadein-slowest">Contact</a>
+        </nav>
+        <div class="nav-bar-icons push-right fadein">
+            <img class="icon" src="./assets/fake-me-drawing.svg" alt="fine line drawing of a girl writing"
+                style="width: 150px; height: 150px; margin-right: -90px; margin-top: 8px;" />
+            <img class="icon" src="./assets/flower.svg" alt="flower" style="width: 150px; height: 150px;" />
+            <img class="icon" src="./assets/climbing-rope.svg" alt="climbing rope"
+                style="width: 140px; height: 140px; margin-left: -100px;" />
+        </div>
+    </header>
+    <section class="sidebar">
+        <div class="sidebar-icons">
+            <a href="mailto:paulinal@hawaii.edu"><img src="./assets/icons8-email-80.png" class="contact-icon"
+                    alt="email" /></a>
+            <a href="https://github.com/paulinalasko/"><img src="./assets/icons8-github-100.png"
+                    class="contact-icon" alt="github icon" style="width: 50px; height: 50px;" /></a>
+            <a href="https://www.linkedin.com/in/paulina-laskowska-90a45b224/"><img
+                    src="./assets/icons8-linkedin-80.png" class="contact-icon" alt="linkedin icon" /></a>
+        </div>
+    </section>
+    <section class="top-hero top-hero-bgd">
+        <div class="top-hero-text fadein">
+            <h2 class="intro-name">Hey there,</h2>
+            <h2 class="intro-name" style="margin: 15px;"><br />I'm Paulina Laskowska.</h2>
+            <h1>I am an avid rock climber, nature lover, dabbling artisan and most importantly, an aspiring front end
+                developer.</h1>
+        </div>
+    </section>
+    <section class="about-container" id="about">
+        <p class="title fadein">About Me</p>
+        <div class="about-flex fadein">
+            <div class="about-text" style="display: flex; flex-direction: column;">
+                <p style="font-size: 19px;">Hi!<br /> I am sure you're wondering about who I am so here is a little
+                    snippet about myself. </p>
+                <p style="margin-top: 30px;">I am a self taught front-end developer based in Colorado. I have been
+                    learning how to code for a few years now and specialize in HTML, CSS, Javascript and React. I've
+                    always been very logical and have thrived solving complex problems and finding efficiency. As I've
+                    gotten older, I've realized that I also love art and have begun to hone my creative/spunky side. I
+                    am a very creative person that has found the passion of being able to execute that creativity into
+                    designing websites and challenging the artistic side. I am excited to be here and to continue to
+                    learn with intention.<br /></p>
+                <p style="margin-top: 20px;">When I'm not coding, you can expect me to most likely be rock climbing with
+                    my partner and friends. You can find me anywhere outside really. I am also a huge fan of anything
+                    holistic, pottery, chili lime chips and crafty things!</p>
+            </div>
+            <div class="about-cont-right">
+                <div class="about-images">
+                    <img src="./assets/selfie.png" style="width: 380px; height: 450px; margin-top: -150px;" />
+                </div>
+                <div class="about-skills">
+                    <h1 style="display: flex;">My Skills: </h1>
+                    <div class="about-imgs">
+                        <div class="img-wrap">
+                            <img src="./assets/icons8-javascript-96.svg" alt="Javascript icon" />
+                            <p class="img-desc">Javascript</p>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="./assets/icons8-html.svg" alt="HTML5 icon" />
+                            <p class="img-desc">HTML5</p>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="./assets/icons8-css.svg" alt="CSS icon" />
+                            <p class="img-desc">CSS</p>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="./assets/icons8-react-100.png" alt="ReactJS icon" />
+                            <p class="img-desc">ReactJS</p>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="./assets/icons8-bootstrap.svg" alt="Bootstrap icon" />
+                            <p class="img-desc">Bootstrap</p>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="./assets/icons8-webpack.svg" alt="Webpack icon" />
+                            <p class="img-desc">Webpack</p>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="./assets/icons8-vs-code-100.png" alt="VSCode icon" />
+                            <p class="img-desc">VS Code</p>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="./assets/icons8-git.svg" alt="Git icon" />
+                            <p class="img-desc">Git</p>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="./assets/icons8-npm.svg" alt="NPM icon" />
+                            <p class="img-desc">NPM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project-container top-hero-bgd" id="projects">
+        <div class="main fadein">
+            <p class="title">My Projects</p>
+            <div class="project">
+                <img class="project-img" src="./assets/cart-website.png"
+                    alt="photo of my shopping cart website project" style="width: 500px; height: 350px;" />
+                <div class="project-desc">
+                    <h2>Higher Ground Shopping Website</h2>
+                    <p>Built With: React, React Router, Bootstrap, HTML5 & CSS.</p>
+                    <p style="margin-top: 10px; line-height: 25px;">Higher Ground is a mock website of a fake outdoor
+                        brand. This website sells many products suited for your outdoor needs. You can add, remove &
+                        change the quantity of products in your shopping cart. It will add up the total for you so you
+                        know how much everything costs. Sadly, you cannot actually checkout but you can browse all the
+                        fun products!</p>
+                    <div class="project-buttons">
+                        <a href="https://paulinalasko.github.io/shopping-cart-react/"><button class="standard-btn">Live
+                                Demo</button></a>
+                        <a href="https://github.com/paulinalasko/shopping-cart-react"><button
+                                class="standard-btn">Code</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-desc">
+                    <h2>Sketchpad</h2>
+                    <p>Built With: Javascript, HTML5 & CSS.</p>
+                    <p style="margin-top: 10px; line-height: 25px;">Fun little sketchpad built with the Odin Project.
+                        This project was made to practice DOM manipulation. You can choose from either black or a
+                        randomized color option to draw with. You can also resize, clear or erase the board if you so
+                        choose!</p>
+                    <div class="project-buttons">
+                        <a href="https://paulinalasko.github.io/etch-a-sketch/"><button class="standard-btn">Live
+                                Demo</button></a>
+                        <a href="https://github.com/paulinalasko/etch-a-sketch"><button
+                                class="standard-btn">Code</button></a>
+                    </div>
+                </div>
+                <img class="project-img" src="./assets/sketchpad.png" alt="photo of my sketchpad project"
+                    style="width: 500px; height: 350px;" />
+            </div>
+            <div class="project">
+                <img class="project-img" src="./assets/weather-app.png" alt="photo of my weather app project"
+                    style="width: 500px; height: 350px;" />
+                <div class="project-desc">
+                    <h2>Weather App</h2>
+                    <p>Built With: OpenWeatherMap API, Javascript, HTML5 & CSS.</p>
+                    <p style="margin-top: 10px; line-height: 25px;">Weather App that shows a 7-day forecast for the
+                        current city being searched. It uses OpenWeatherMap API to fetch the weather. It gives you an
+                        overview of the high's and low's for each day, corresponding with an icon indicating the
+                        conditions.</p>
+                    <div class="project-buttons">
+                        <a href="https://paulinalasko.github.io/weather-app-github/"><button class="standard-btn">Live
+                                Demo</button></a>
+                        <a href="https://github.com/paulinalasko/weather-app-github"><button
+                                class="standard-btn">Code</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-desc">
+                    <h2>Admin Dashboard</h2>
+                    <p>Built with: HTML5 & CSS.</p>
+                    <p style="margin-top: 10px; line-height: 25px;">Mock admin dashboard project made with The Odin
+                        Project. It was fun to finetune some of my HTML & CSS skills to build a modern website. I was
+                        able to practice with Flexbox and Grid, along with pseudo-classes to make it look more
+                        interactive/polished.</p>
+                    <div class="project-buttons">
+                        <a href="https://paulinalasko.github.io/admin-dashboard/"><button class="standard-btn">Live
+                                Demo</button></a>
+                        <a href="https://github.com/paulinalasko/admin-dashboard"><button
+                                class="standard-btn">Code</button></a>
+                    </div>
+                </div>
+                <img class="project-img" src="./assets/admin-dashboard.png"
+                    alt="photo of my admin dashboard project" style="width: 500px; height: 300px;" />
+            </div>
+            <div class="project">
+                <img class="project-img" src="./assets/calculator.png" alt="photo of my calculator project"
+                    style="width: 500px; height: 300px;" />
+                <div class="project-desc">
+                    <h2>Calculator</h2>
+                    <p>Built with: Javascript, HTML5 & CSS.</p>
+                    <p style="margin-top: 10px; line-height: 25px;">Very typical but also very needed to get practice is
+                        the amazing Javascript based calculator! You can handle any calculation needs at your disposal
+                        here.</p>
+                    <div class="project-buttons">
+                        <a href="https://paulinalasko.github.io/calculator/"><button class="standard-btn">Live
+                                Demo</button></a>
+                        <a href="https://github.com/paulinalasko/calculator"><button
+                                class="standard-btn">Code</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="contact-container" id="contact">
+        <form class="form fadein">
+            <h3 style="font-size: 28px;">Let's Connect!</h3>
+            <p>Come strike up a conversation if you have any questions! My inbox is always open.</p>
+            <a href="mailto:paulinal@hawaii.edu" class="contact-button">Say Hello</a>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-text">Copyright 2023 © paulinalasko</div>
+        <div class="footer-imgs">
+            <a href="mailto:paulinal@hawaii.edu"><img src="./assets/icons8-email-80.png" class="contact-icon"
+                    alt="email" /></a>
+            <a href="https://github.com/paulinalasko/"><img src="./assets/icons8-github-100.png"
+                    class="contact-icon" alt="github icon" style="width: 50px; height: 50px;" /></a>
+            <a href="https://www.linkedin.com/in/paulina-laskowska-90a45b224/"><img
+                    src="./assets/icons8-linkedin-80.png" class="contact-icon" alt="linkedin icon" /></a>
+        </div>
+    </footer>
+    <script src="./index.js" defer></script>
+</body>
+
+</html>
