@@ -465,8 +465,8 @@ body.loaded .fadein-slowest {
         visibility: hidden;
     }
 
-    .top-hero-text {
-        font-size: 14px;
+    .top-hero-text, .about-text {
+        font-size: 16px;
     }
 
     .title {
