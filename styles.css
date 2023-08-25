@@ -457,15 +457,15 @@ body.loaded .fadein-slowest {
         margin-top: -125px;
     }
 
-    .nav-bar>a {
-        font-size: 16px;
+    .nav-bar > a {
+        font-size: 18px;
     }
 
     .sidebar {
         visibility: hidden;
     }
 
-    .top-hero-text, .about-text {
+    .top-hero-text, .about-text > p {
         font-size: 16px;
     }
 
