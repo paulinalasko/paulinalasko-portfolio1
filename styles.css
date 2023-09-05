@@ -493,7 +493,7 @@ body.loaded .fadein-slowest {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        max-width: 70%;
+        max-width: 75%;
         padding: 50px;
         margin-top: -50px;
     }
@@ -524,7 +524,7 @@ body.loaded .fadein-slowest {
     }
 
     .project-desc {
-        max-width: 70%;
+        max-width: 75%;
     }
 
     .project-buttons {
